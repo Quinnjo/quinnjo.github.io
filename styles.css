@@ -8,6 +8,11 @@ html, body {
 	font-family: 'Roboto';
 }
 
+a {color:#0000FF;}         /* Unvisited link  */
+a:visited {color:#0000FF;} /* Visited link    */
+a:hover {color:#0000FF;}   /* Mouse over link */
+a:active {color:#0000FF;}  /* Selected link   */
+
 .header {
 	background-color: darkseagreen;
 	color: black;
@@ -67,6 +72,12 @@ html, body {
 	padding: 15px;
 	padding-right: 30px;
 	font-size: larger;
+}
+
+.project {
+	background-color: powderblue;
+	color: black;
+	padding: 15px;
 }
 
 .gallery {
